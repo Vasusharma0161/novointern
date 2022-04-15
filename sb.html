@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	</script>
+	<script >
+		$(document).ready(function(){
+			$("#cb").click(function(){
+				  if($(this).is(':checked')){
+                  $("#td2").show();
+                  $("span").html("Haematology_CellCounter")
+				  }
+				  else{
+				  	$("#td2").css({"display":"none"})
+				  }
+
+			});
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body style=" background-color: #ffffcc">
+	
+<fieldset >
+	<legend style="font-size: 30px;color: black;text-shadow: 2px 2px 10px red" align="center">Patient's Contact Information</legend>
+	<table>
+	
+			<td>Registration No: <input type="text" name="" id="i1"></td>
+			<td>Name: <input type="text" name="" list="na">
+             <datalist id="na">
+              <option>Mr.</option>
+              <option>Mrs.</option>
+              </datalist>
+			</td>
+			<td>Age: <input type="text" name=""></td>
+			<td>Gender: <input type="text" name="" list="gr"/>
+            <datalist id="gr">
+              <option>male</option>
+              <option>female</option>
+              </datalist>
+			</td>
+			<td>Reffered By: <input type="text" name=""></td>
+		</tr>
+	</table>
+	
+</fieldset><br>
+<table border="2">
+       <tr>
+       	<td id="td1">
+		<legend style="font-size: 30px;color: red;">Headings:</legend>
+		<input type="checkbox" name="" id="cb">Haematology_CellCounter<br>
+		<input type="checkbox" name="">Haematology<br>
+		<input type="checkbox" name="">Biochemisty<br>
+		<input type="checkbox" name="">Examination Of Body Fluid<br>
+		<input type="checkbox" name="">Cardiac Market<br>
+		<input type="checkbox" name="">Serology<br>
+        <input type="checkbox" name="">Serology Report<br>
+        <input type="checkbox" name="">Clinical Pathology<br>
+        <input type="checkbox" name="">Coagulation Studies<br>
+        <input type="checkbox" name="">Antibody Tests<br>
+        <input type="checkbox" name="">Cytology<br>
+        <input type="checkbox" name="">Endocrinology<br>
+        <input type="checkbox" name="">Histopathology<br>
+        <input type="checkbox" name="">Histopathology I<br>
+        <input type="checkbox" name="">Immunoturbidimetric Assays<br>
+        <input type="checkbox" name="">Microbiology I(C/S)<br>
+        <input type="checkbox" name="">Microbiology<br>
+        <input type="checkbox" name="">Special Test<br>
+        <input type="checkbox" name="">Prenatal Examination<br>
+        <input type="checkbox" name="">Tumour Market<br>
+        <input type="checkbox" name="">Drug Analysis Report<br>
+    </td>
+    <td id="td2" style="background-color: white;display: none">
+    	<h1  align="center" style="color: red">Test Under <span></span>:</h1>
+    	<input type="checkbox" name="">CBP-Complete Blood Count<br>
+		<input type="checkbox" name="">Haematology<br>
+		<input type="checkbox" name="">Biochemisty<br>
+		<input type="checkbox" name="">Examination Of Body Fluid<br>
+		<input type="checkbox" name="">Cardiac Market<br>
+		<input type="checkbox" name="">Serology<br>
+        <input type="checkbox" name="">Serology Report<br>
+        <input type="checkbox" name="">Clinical Pathology<br>
+        <input type="checkbox" name="">Coagulation Studies<br>
+        <input type="checkbox" name="">Antibody Tests<br>
+        <input type="checkbox" name="">Cytology<br>
+    </td>
+</tr>
+	</table>
+	
+	
+</html>

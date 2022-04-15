@@ -1,0 +1,26 @@
+#card{
+	background-color: rgba(0,0,0,0.1);
+}
+.test{
+	padding: 2% 3%;
+}
+.card-deck{
+	text-align: center;
+}
+#features{
+	padding: 7% 15%;
+}
+.feature-box{
+	text-align: center;
+	padding: 4.5%;
+}
+.icon{
+color: #8a3ab9;
+RGB: 138, 58, 185;
+}
+.icon2{
+color: #3399ff;
+}
+.icon3{
+color: #ff9999;
+}

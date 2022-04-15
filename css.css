@@ -1,0 +1,67 @@
+.section{
+	
+    color: #fff;
+    height: 600px;
+
+}
+.container1{
+	text-align: center;
+	padding-top: 100px;
+	text-shadow: 2px 1px blue;
+	color: black;
+}
+.container2{
+	text-align: center;
+	padding-top: 10px;
+}
+.navbar-brand{
+	font-size: 2rem;
+	font-family: italic;
+}
+.navbar{
+	
+	text-shadow: 2px 1px blue;
+
+}
+.icon{
+color: #8a3ab9;
+RGB: 138, 58, 185;
+}
+.icon2{
+color: #3399ff;
+}
+.icon3{
+color: #ff9999;
+}
+.nav-link{
+	font-size: 1.2rem;
+}
+#features{
+	padding: 7% 15%;
+}
+.feature-box{
+	text-align: center;
+	padding: 4.5%;
+}
+
+.carousel-item{
+	height: 100vh;
+}
+
+
+#card{
+	background-color: rgba(0,0,0,0.3);
+}
+.test{
+	padding: 2% 3%;
+}
+.card-deck{
+	text-align: center;
+}
+body{
+	background-image: url("img2.jpg");
+	 background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+}
